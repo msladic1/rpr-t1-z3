@@ -57,4 +57,8 @@ public class Sat {
     public int getSekunde() {
         return sekunde;
     }
+
+    public void Ispisi() {
+        System.out.println(sati + ":" + minute + ":" + sekunde);
+    }
 }
