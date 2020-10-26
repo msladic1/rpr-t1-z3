@@ -46,4 +46,15 @@ public class Sat {
 		        Prethodni();
     }
 
+    public int getSati() {
+        return sati;
+    }
+
+    public int getMinute() {
+        return minute;
+    }
+
+    public int getSekunde() {
+        return sekunde;
+    }
 }
