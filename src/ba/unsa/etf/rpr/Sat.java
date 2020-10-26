@@ -37,5 +37,13 @@ public class Sat {
         if (sati == -1) sati = 23;
     }
 
+    public void PomjeriZa(int pomak) {
+        if (pomak > 0)
+            for (int i = 0; i < pomak; i++)
+                Sljedeci();
+		else
+		    for (int i = 0; i < -pomak; i++)
+		        Prethodni();
+    }
 
 }
